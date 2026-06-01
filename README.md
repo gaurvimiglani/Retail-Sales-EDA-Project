@@ -1,77 +1,120 @@
-# 📊 Retail Sales Data Analysis (EDA Project)
+# 📊 Retail Sales Exploratory Data Analysis (EDA) Project
 
-## 👩‍💻 Author
-**Gaurvi Miglani**
-
----
-
-## 📌 Project Overview
-This project focuses on Exploratory Data Analysis (EDA) of a retail sales dataset to extract meaningful business insights. The analysis helps understand sales 
-performance, profit trends, discount impact, and category-wise performance using Python.
+👩‍💻 Author: Gaurvi Miglani  
 
 ---
 
-## 🎯 Objective
-To analyze retail sales data and generate actionable insights that help improve business decisions, profitability, and performance.
+## 🎯 Project Objective
+To analyze retail sales data and extract meaningful business insights that help in data-driven decision making.
 
 ---
 
-## 🛠 Tools & Libraries Used
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Jupyter Notebook  
+## 🛠 Tools & Technologies Used
+Python | Pandas | NumPy | Matplotlib | Seaborn | Jupyter Notebook  
 
 ---
 
-## 📂 Dataset Information
-The dataset contains information about:
+## 📂 Dataset Overview
+The dataset contains retail sales transaction details including:
 - Sales
 - Profit
 - Discount
 - Category
-- Sub-category
+- Sub-Category
 - Region
-- Customer segments
+- Customer Segment
 
 ---
 
-## 🔍 Key Analysis Performed
-- Data Cleaning & Preprocessing  
-- Missing Value Treatment  
-- Duplicate Removal  
-- Exploratory Data Analysis (EDA)  
-- Category-wise Analysis  
-- Sub-category Analysis  
-- Region-wise Performance  
-- Discount vs Profit Analysis  
-- Correlation Analysis  
-- Business KPI Dashboard  
+## 📥 Data Loading
+The dataset was imported into Python using Pandas for analysis.
 
 ---
 
-## 📊 Key Insights
-- Technology category generated highest sales  
-- Copiers are the most profitable sub-category  
-- Tables and Binders are loss-making segments  
-- West region performed best in sales and profit  
-- Higher discounts reduce profitability  
+## 🧹 Data Cleaning
+- Handled missing values  
+- Removed duplicate records  
+- Cleaned column names for consistency  
 
 ---
 
-## 📈 Business Recommendations
-- Focus on high-profit products like Copiers and Phones  
-- Reduce losses in Tables and Binders  
+## 📊 Exploratory Data Analysis (EDA)
+Performed detailed analysis to understand:
+- Sales trends  
+- Profit distribution  
+- Discount impact  
+- Category & sub-category performance  
+- Regional performance  
+
+---
+
+## 📦 Category-wise Analysis
+Analyzed sales and profit across different product categories.
+
+---
+
+## 📦 Sub-Category Analysis
+Studied performance of individual sub-categories to identify best and worst performing products.
+
+---
+
+## 🌍 Region-wise Analysis
+Analyzed sales and profit distribution across different regions.
+
+---
+
+## ⚠ Loss-Making Analysis
+Identified products and sub-categories generating negative profit.
+
+---
+
+## 💰 Discount Impact Analysis
+Analyzed how discount affects profit and observed that higher discounts reduce profitability.
+
+---
+
+## 🔗 Correlation Analysis
+Studied relationships between sales, profit, and discount using correlation heatmaps.
+
+---
+
+## 📉 Outlier Detection (IQR Method)
+Detected extreme values that may affect business analysis using statistical methods.
+
+---
+
+## 📊 Statistical Validation
+Performed statistical checks to validate relationships between key variables.
+
+---
+
+## 📈 Business KPI Dashboard
+Created a dashboard showing:
+- Total Sales  
+- Total Profit  
+- Average Discount  
+- Total Orders  
+
+---
+
+## 🔑 Key Insights
+- Technology category performed best in sales  
+- Copiers generated highest profit  
+- Tables and Binders caused losses  
+- Higher discounts negatively impact profit  
+
+---
+
+## 💡 Business Recommendations
+- Focus on high-profit products  
+- Reduce losses in underperforming categories  
 - Optimize discount strategy  
-- Improve performance in low-performing regions  
+- Improve weak-performing regions  
 
 ---
 
 ## 📌 Conclusion
-This project demonstrates how raw retail data can be transformed into meaningful insights using data analysis techniques, helping businesses make data-driven 
-decisions.
+This project demonstrates how raw retail data can be transformed into meaningful business insights using data analysis techniques.
 
 ---
 
